@@ -11,3 +11,7 @@ jobs:
       - name: multiline script
         run: |
           java -version
+      - name: Python Commands
+        run: |
+          import platform
+          print(platform)  
