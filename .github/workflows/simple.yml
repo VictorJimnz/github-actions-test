@@ -4,10 +4,10 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: echo s string
-        run: echo "Hello World!!"
+        run: echho "Hello World!!"
       - name: multiline script
         run: |
           java -version
